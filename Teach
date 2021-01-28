@@ -1,0 +1,15 @@
+For reading
+ on("value",readposition,showerror)
+on - "value" 
+readfunction
+showerror.
+
+For writing
+.set({jason format data});
+
+
+before reading /writing refer the location always.
+database.ref("ball/position");
+
+the read data can be used or called using
+data.val();
